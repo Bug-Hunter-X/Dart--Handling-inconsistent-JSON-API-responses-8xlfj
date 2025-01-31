@@ -1,0 +1,3 @@
+# Dart: Handling Inconsistent JSON API Responses
+
+This repository demonstrates a common error in Dart when working with APIs:  assuming a consistent JSON structure from an external API.  The `bug.dart` file shows code that might crash if the API response is inconsistent. The `bugSolution.dart` file shows how to handle the inconsistency gracefully.  This is particularly important for production applications to prevent unexpected crashes. The solution involves robust error handling and input validation.
